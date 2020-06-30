@@ -1,4 +1,29 @@
-.game {
-  display: flex;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
 
+.game {
+  width: 300px;
+  margin: 100px auto 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.game-item {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  background-color: #ccc;
+  font-size: 64px;
+  cursor: pointer;
+  border: solid 1px black;
+  box-sizing: border-box;
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
 }
